@@ -6,3 +6,13 @@
 body {
     background-color:#49A022;   /* matrix green */
 }
+
+.calculator-layout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+
+}
