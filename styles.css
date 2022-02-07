@@ -1,2 +1,8 @@
+* {
+    padding: 0x;
+    margin: 0px;
+}
+
 body {
-    background: 49A022;   /* matrix green */
+    background-color:#49A022;   /* matrix green */
+}
