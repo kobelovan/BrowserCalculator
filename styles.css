@@ -1,6 +1,6 @@
 * {
     padding: 0x;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 body {
@@ -11,8 +11,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 35px;
 }
 
 .button {
-
+    justify-content: center;
 }
