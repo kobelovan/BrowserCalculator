@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 2800px;
+    width: 200px;
     display: flexbox;
     justify-items: center;
 }
