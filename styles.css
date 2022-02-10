@@ -1,15 +1,21 @@
-
-
 body {
-    background-color:#49A022;   /* matrix green */
+    background-color: brown;  
 }
+
+.current-display {
+    background-color: beige;
+    width: 200px;
+    padding: 50px;
+    margin: 100px auto -224px auto;
+}
+
 
 .calculator-layout {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 50px;
     width: 250px;
-    margin: 300px 100px auto 550px;
+    margin: 174px auto auto 512px;
 }
 
 .button {
@@ -20,4 +26,9 @@ body {
     text-align: center;
     width: 100px;
     cursor: pointer;
+    
+}
+
+.button:hover {
+    color: white;
 }
