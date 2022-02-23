@@ -1,3 +1,8 @@
+function AC() {
+    document.getElementById("display").innerHTML = "";
+  }
+
+
 function num0() {
     document.getElementById("display").innerHTML = 0;
   }
