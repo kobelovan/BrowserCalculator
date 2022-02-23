@@ -1,4 +1,7 @@
-//addition
+// everything below to 'addition' is chicken scratch
+
+
+//addition //element.onclick subject to change
 function add(num1, num2) {
     let res = num1 + num2;
     window.alert(res);
