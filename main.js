@@ -1,7 +1,51 @@
-// everything below to 'addition' is chicken scratch
+function num0() {
+    document.getElementById("display").innerHTML = 0;
+  }
+
+function num1() {
+    document.getElementById("display").innerHTML = 1;
+  }
+
+  function num2() {
+    document.getElementById("display").innerHTML = 2;
+  }
 
 
-//addition //element.onclick subject to change
+  function num3() {
+    document.getElementById("display").innerHTML = 3;
+  }
+
+
+  function num4() {
+    document.getElementById("display").innerHTML = 4;
+  }
+
+
+  function num5() {
+    document.getElementById("display").innerHTML = 5;
+  }
+
+
+  function num6() {
+    document.getElementById("display").innerHTML = 6;
+  }
+
+
+  function num7() {
+    document.getElementById("display").innerHTML = 7;
+  }
+
+
+  function num8() {
+    document.getElementById("display").innerHTML = 8;
+  }
+
+
+  function num9() {
+    document.getElementById("display").innerHTML = 9;
+  }
+
+//addition 
 function add(num1, num2) {
     let res = num1 + num2;
     window.alert(res);
