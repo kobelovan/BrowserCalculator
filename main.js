@@ -1,6 +1,6 @@
 function AC() {
     document.getElementById("display").innerHTML = "";
-  }
+}
 
 
 function num0() {
@@ -74,6 +74,10 @@ function multiply(num1, num2) {
     document.getElementById("display").innerHTML = res;
 }
 
+function storeVar(value) {
+    let amount = value;
+    console.log(amount);
+}
 
 //determines which operator to execute
 function operate(op, num1, num2) {
@@ -84,7 +88,7 @@ function operate(op, num1, num2) {
     } else if (op == "/") {
         divide(num1, num2);
     } else if (op == "*") {
-        multiply(num1, num2);   
+        multiply(num1, num2);
     } else {
         console.log("");
     }
