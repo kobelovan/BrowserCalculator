@@ -84,8 +84,10 @@ function operate(op, num1, num2) {
     } else if (op == "/") {
         divide(num1, num2);
     } else if (op == "*") {
-        multiply(num1, num2);
+        multiply(num1, num2);   
     } else {
-        console.log(" ");
+        console.log("");
     }
 }
+
+
