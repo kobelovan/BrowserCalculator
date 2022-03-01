@@ -3,6 +3,7 @@ function AC() {
     document.getElementById("result").value = " ";
 }
 
+//deletes last previous input
 function del() {
     document.getElementById("result").value = document.getElementById("result").value.slice(0, -1);
 }
