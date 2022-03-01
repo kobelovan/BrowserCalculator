@@ -3,12 +3,8 @@ function AC() {
     document.getElementById("result").value = " ";
 }
 
-<<<<<<< Updated upstream
-//deletes last previous input
-=======
 
 //should delete last character in calculator display.
->>>>>>> Stashed changes
 function del() {
     document.getElementById("result").value = document.getElementById("result").value.slice(0, -1);
 }
@@ -28,61 +24,5 @@ function calculate() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//addition 
-function add(num1, num2) {
-    let res = num1 + num2;
-    document.getElementById("display").innerHTML = res;
-}
-
-//subtraction
-function sub(num1, num2) {
-    let res = num1 - num2;
-    document.getElementById("display").innerHTML = res;
-}
-
-//division
-function divide(num1, num2) {
-    let res = num1 / num2;
-    document.getElementById("display").innerHTML = res;
-}
-
-//multiplication
-function multiply(num1, num2) {
-    let res = num1 * num2;
-    document.getElementById("display").innerHTML = res;
-}
-
-function storeVar(value) {
-    let amount = value;
-    console.log(amount);
-}
-
-//determines which operator to execute
-function operate(op, num1, num2) {
-    if (op == "+") {
-        add(num1, num2);
-    } else if (op == "-") {
-        sub(num1, num2);
-    } else if (op == "/") {
-        divide(num1, num2);
-    } else if (op == "*") {
-        multiply(num1, num2);
-    } else {
-        console.log("");
-    }
-}
 
 
