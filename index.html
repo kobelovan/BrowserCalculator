@@ -13,29 +13,30 @@
 <body>
 
     <div class="current-display">
-        <p id="display"></p>
+        <input class="display" type="text" id="result" />
     </div>
 
     <!--this container manipulates entire calculator-->
     <div class="calculator-layout">
 
         <button class="button" id="display" onclick="AC()">AC</button>
-        <button class="button">DEL</button>
-        <button class="button" id="display" onclick="num0()">0</button>
-        <button class="button" id="display" onclick="num1()">1</button>
-        <button class="button" id="display" onclick="num2()">2</button>
-        <button class="button" id="display" onclick="num3()" onclick='storeVar(this.value)'>3</button>
-        <button class="button" id="display" onclick="num4()">4</button>
-        <button class="button" id="display" onclick="num5()" onclick='storeVar(this.value)'>5</button>
-        <button class="button" id="display" onclick="num6()">6</button>
-        <button class="button" id="display" onclick="num7()">7</button>
-        <button class="button" id="display" onclick="num8()">8</button>
-        <button class="button" id="display" onclick="num9()">9</button>
-        <button class="button" onclick="operate()">+</button>
-        <button class="button" onclick="operate()">-</button>
-        <button class="button" onclick="operate()">/</button>
-        <button class="button" onclick="operate()">*</button>
-        <button class="button">=</button>
+        <button class="button" id="display" onclick="del()">Del</button>
+        <input class="button" type="button" value="0" onclick="display('0')" />
+        <!-- changed buttons to become inputs and styled them as buttons in css -->
+        <input class="button" type="button" value="1" onclick="display('1')" />
+        <input class="button" type="button" value="2" onclick="display('2')" />
+        <input class="button" type="button" value="3" onclick="display('3')" />
+        <input class="button" type="button" value="4" onclick="display('4')" />
+        <input class="button" type="button" value="5" onclick="display('5')" />
+        <input class="button" type="button" value="6" onclick="display('6')" />
+        <input class="button" type="button" value="7" onclick="display('7')" />
+        <input class="button" type="button" value="8" onclick="display('8')" />
+        <input class="button" type="button" value="9" onclick="display('9')" />
+        <input class="button" type="button" value="+" onclick="display('+')" />
+        <input class="button" type="button" value="-" onclick="display('-')" />
+        <input class="button" type="button" value="/" onclick="display('/')" />
+        <input class="button" type="button" value="*" onclick="display('*')" />
+        <input class="button" type="button" value="=" onclick="calculate()" />
 
 
     </div>

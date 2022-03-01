@@ -1,54 +1,25 @@
+// all clear function setting display "result" to be an empty string
 function AC() {
-    document.getElementById("display").innerHTML = "";
+    document.getElementById("result").value = " ";
 }
 
-
-function num0() {
-    document.getElementById("display").innerHTML = 0;
+function del() {
+    var w = document.querySelector("result").value;
+    w = str.slice(0, -1);
 }
 
-function num1() {
-    document.getElementById("display").innerHTML = 1;
+//display function -> given parameter of value
+function display(value) {
+    document.getElementById("result").value += value;
 }
 
-function num2() {
-    document.getElementById("display").innerHTML = 2;
+//calucation function
+function calculate() {
+    var numbers = document.getElementById("result").value;
+    var calculation = eval(numbers);
+    document.getElementById("result").value = calculation;
 }
 
-
-function num3() {
-    document.getElementById("display").innerHTML = 3;
-}
-
-
-function num4() {
-    document.getElementById("display").innerHTML = 4;
-}
-
-
-function num5() {
-    document.getElementById("display").innerHTML = 5;
-}
-
-
-function num6() {
-    document.getElementById("display").innerHTML = 6;
-}
-
-
-function num7() {
-    document.getElementById("display").innerHTML = 7;
-}
-
-
-function num8() {
-    document.getElementById("display").innerHTML = 8;
-}
-
-
-function num9() {
-    document.getElementById("display").innerHTML = 9;
-}
 
 //addition 
 function add(num1, num2) {
