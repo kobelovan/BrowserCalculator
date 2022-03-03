@@ -1,4 +1,4 @@
-![➗Browser➕Calculator➖](https://user-images.githubusercontent.com/83419428/156473981-9397bfd6-568f-425d-80e0-4e02df914c30.png)
+![➗Browser➕Calculator➖_](https://user-images.githubusercontent.com/83419428/156612939-02716101-9709-414b-918d-2dee73c9592e.png)
 
 
 ![GitHub language count](https://img.shields.io/github/languages/count/kobelovan/browsercalculator) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kobelovan/browsercalculator?color=gre)
