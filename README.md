@@ -19,6 +19,6 @@ HTML, CSS, JavaScript
 
 ## Authors
 <ul>
-  <li>Brandon Lily</a></li>
-  <li>Kobe Lovan</li>
+  <li>Brandon Lily (https://github.com/lillybrandon)</a></li>
+  <li>Kobe Lovan (https://github.com/kobelovan)</li>
  </ul>
