@@ -4,9 +4,18 @@ body {
 
 .current-display {
     background-color: beige;
-    width: 200px;
-    padding: 50px;
-    margin: 100px auto -224px auto;
+    width: 300px;
+    height: 100px;
+    margin: 0;
+   
+}
+
+/*added container to encompass all of the calcultor so it moves together correctly*/
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* style for input area in the display */
@@ -15,15 +24,19 @@ body {
     border: none;
     font-family: sans-serif;
     font-size: 20px;
+    height: 90px;
+    right: 200px;
 }
 
 .calculator-layout {
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 50px;
-    width: 250px;
-    margin: 174px auto auto 512px;
+    grid-template-columns: 1fr 1fr 1fr;
+/*     padding: 50px; */
+    width: 300px;
+    margin: 0;
 }
+
+
 
 .button {
     background-color: rgba(255, 255, 255, 0.8);
