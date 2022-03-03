@@ -1,10 +1,10 @@
 ![➗Browser➕Calculator➖](https://user-images.githubusercontent.com/83419428/156473981-9397bfd6-568f-425d-80e0-4e02df914c30.png)
 
 # Browser Calculator
-## Intro
+## Intro ❗
 A basic calculator that pops up in your browser and performs mathamatical equations.
 
-## How to use the Browser Calculator
+## How to use the Browser Calculator ❔
 
 <ol>
   <li>Open source code into your preferred browser</li>
@@ -14,10 +14,10 @@ A basic calculator that pops up in your browser and performs mathamatical equati
   <li>Use "Del" to clear the last input</li>
  </ol>
  
- ## Languages Used
+ ## Languages Used 💻
 HTML, CSS, JavaScript
 
-## Authors
+## Authors 📚
 <ul>
   <li>Brandon Lily (https://github.com/lillybrandon)</a></li>
   <li>Kobe Lovan (https://github.com/kobelovan)</li>
