@@ -4,8 +4,11 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/kobelovan/browsercalculator) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kobelovan/browsercalculator?color=gre)
 
 # Browser Calculator
-## Intro ❗
+## About ❗
 A basic calculator that pops up in your browser and performs mathamatical equations.
+
+![ezgif com-resize](https://user-images.githubusercontent.com/83419428/156489151-457eb210-0aca-4db8-97d1-682824ae1628.gif)
+
 
 ## How to use the Browser Calculator ❔
 
