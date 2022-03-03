@@ -3,8 +3,6 @@
 # Browser Calculator
 ## Intro
 A basic calculator that pops up into your browser and performs mathamatical equations.
-## Languages used
-HTML, CSS, JavaScript
 
 ##How to use the Browser Calculator
 <ol>
@@ -15,6 +13,10 @@ HTML, CSS, JavaScript
   <li>Use "=" to calculate the mathematical expression</li>
   <li>The result will now be shown on the calculator display</li>
  </ol>
+ 
+ ## Languages Used
+HTML, CSS, JavaScript
+
 ## Authors
 <ul>
   <li>Brandon Lily</a></li>
